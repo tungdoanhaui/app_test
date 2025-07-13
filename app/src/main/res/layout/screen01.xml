@@ -1,0 +1,171 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tu">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="410dp"
+        android:adjustViewBounds="true"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:contentDescription="@string/nut1"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+
+        android:src="@drawable/nut1" />
+
+    <ImageButton
+        android:id="@+id/tu_keo_01"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="410dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/nut2"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nut2" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="410dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/nut1"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nut1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="610dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/nut1"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nut4" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="610dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/nut2"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nut5" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="610dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/nut1"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nut6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:text="Bật Tắt Tủ\nAn Toàn"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:text="Mở Tủ Bằng\nGiọng Nói"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:text="Nghe Nhạc"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="730dp"
+        android:gravity="center"
+        android:text="Sấy Bát Đĩa"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="730dp"
+        android:gravity="center"
+        android:text="Khử Khuẩn\nKhử Mùi Hôi"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="730dp"
+        android:gravity="center"
+        android:text="Bật Đèn\nTự Động"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="138dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Next"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/benphai" />
+    <ImageButton
+        android:id="@+id/btnSettings01"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/setting_icon"
+        android:contentDescription="@string/settings"/>
+
+</FrameLayout>

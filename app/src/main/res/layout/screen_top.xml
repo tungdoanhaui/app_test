@@ -1,0 +1,57 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageButton
+        android:id="@+id/tu01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Back"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/tu01" />
+
+
+    <ImageButton
+        android:id="@+id/bed"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="350dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="bed01"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/smart_bed" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="Điều Khiển Tủ Thông Minh"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="660dp"
+        android:gravity="center"
+        android:text="Điều Khiển Giường Thông Minh"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+</FrameLayout>

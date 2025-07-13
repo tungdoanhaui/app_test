@@ -1,0 +1,66 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_home">
+
+    <!-- Nút + ở góc phải trên cùng -->
+    <ImageButton
+        android:id="@+id/btnAddDevice"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Thêm thiết bị"
+        android:scaleType="centerInside"
+        android:src="@drawable/add_5306132" />
+
+    <ImageButton
+        android:id="@+id/tu_device"
+        android:layout_width="196dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Back"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/tu01" />
+    <!-- Weather widget -->
+    <LinearLayout
+        android:id="@+id/weatherWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toStartOf="@id/btnAddDevice">
+
+    </LinearLayout>
+
+    <!-- Danh sách thiết bị sẽ render ở đây bằng Compose hoặc code động -->
+    <FrameLayout
+        android:id="@+id/deviceListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weatherWidget"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Nút Account xuống dưới cùng bên phải -->
+    <ImageView
+        android:id="@+id/ivAccount"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/icon_setting"
+        android:contentDescription="Tài khoản"/>
+
+</RelativeLayout>

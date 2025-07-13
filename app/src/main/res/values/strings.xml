@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartConfigApp</string>
+    <string name="nut1">Nút 1</string>
+    <string name="nut2">Nút 2</string>
+    <string name="nut3">Nút 3</string>
+    <string name="nut4">Nút 4</string>
+    <string name="nut5">Nút 5</string>
+    <string name="nut6">Nút 6</string>
+    <string name="settings">Cài đặt</string>
+</resources>
